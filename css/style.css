@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
+/* Main Color: #ffa502 55, 66, 250, 0.8*/
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+.nav ul {
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    
+}
+
+nav a {
+    display: inline-block;
+    padding: .8em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: normal;
+}
+
+nav a:hover {
+    background-color: rgba(55, 66, 250, 0.8);
+    border-radius: 7px;
+    transition-duration: 200ms;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+.main-nav li {
+    padding: 5%;
+}
+
+.band-name {
+    font-family: 'Teko', sans-serif;
+}
+
+.band-name-large {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 1950%;
+    opacity: 70%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .2);
+    background-blend-mode: multiply;
+    background-image: url(https://i.ibb.co/thyyvwg/eden-background.jpg);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.store-header {
+    background-color: rgba(0, 0, 0, .2);
+    background-blend-mode: multiply;
+    background-image: url(https://wallpaperaccess.com/full/2518092.png);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.about-header {
+    background-color: rgba(0, 0, 0, .2);
+    background-blend-mode: multiply;
+    background-image: url(https://wallpapercave.com/wp/wp5483221.jpg);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}
+
+.about-band-image {
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+footer h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+}
+
+.main-footer {
+    background-color: #3742fa;
+    color: white;
+}
+
+.main-footer-container {
+    display: flex;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 0.5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+footer div ul li {
+    display: inline;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.btn-header {
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+    margin-bottom: 45px;
+    font-size: 2em;
+    color: white;
+    border: 2px solid rgba(55, 66, 250, 0.8);
+    background-color: rgba(55, 66, 250, 0.1);
+    border-radius: 7px;
+}
+
+.btn-header:hover {
+    background-color: rgba(55, 66, 250, 0.8);
+    border-radius: 7px;
+    transition-duration: 200ms;
+}
+.play-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    border: 2px solid rgba(55, 66, 250, 0.8);
+    background-color: rgba(55, 66, 250, 0.1);
+    border-radius: 50%;
+    font-size: 26px;
+}
+
+.play-btn:hover {
+    background-color: rgba(55, 66, 250, 0.8);
+    border-radius: 50%;
+    transition-duration: 200ms;
+    
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: rgb(26, 25, 25);
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 40%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgba(55, 66, 250, 1);
+    padding: 16px;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-store {
+    color: white;
+    background-color: rgba(55, 66, 250, 1);
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+}
+
+
+.btn-primary:hover, .btn-store:hover {
+    background-color: rgb(23, 33, 224);
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+header div button a {
+    text-decoration: none;
+    color: white;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(26, 25, 25);
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+    position: relative;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: rgb(37, 35, 35)
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(37, 35, 35)
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    color: rgb(37, 35, 35);
+    font-size: 1.2em;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: rgb(37, 35, 35);
+    margin-left: 0.5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #f22613;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.3em;
+}
+
+.btn-danger:hover {
+    background-color: #ce1d0d;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.cart-quantity-input {
+    height: 41px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(55, 66, 250, 1);
+    background-color: rgb(240, 237, 237);
+    color: rgb(37, 35, 35);
+    padding: 0;
+    text-align: center;
+    margin-right: 35px;
+    font-size: 1.2em;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(26, 25, 25);
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color:rgb(37, 35, 35) ;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block; /*When you display block something, you can center it with margin: auto;*/
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
